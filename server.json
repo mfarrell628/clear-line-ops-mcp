@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mfarrell628/clear-line-ops",
+  "description": "150+ hosted tools: describe-to-build CAD, scan-to-CAD, architecture studio, web research, media.",
+  "version": "1.0.0",
+  "repository": { "url": "https://github.com/mfarrell628/clear-line-ops-mcp", "source": "github" },
+  "websiteUrl": "https://mcp.clear-line-operations.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.clear-line-operations.com/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer <API key> (free trial key from the website)", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}
